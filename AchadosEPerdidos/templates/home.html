@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Achados e Perdidos - UnB</title>
+</head>
+<body>
+
+<h1> CARTEIRA DE PROJETOS </h1>
+<table class="table table-striped">
+<tr>
+    <th>Imagem</th>
+    <th>Nome</th>
+    <th>Situação</th>
+    <th>categoria</th>
+</tr>
+{% if objetos%}
+    entro
+    {% for objeto in objetos %}
+        <tr>
+            <td> <img src="{{MEDIA_URL }}{{ objeto.image.url }}"> </img> </td>
+            <td>{{ objeto.nomeObjeto }}</td>
+            <td>{{ objeto.retirado }}</td>
+            <td>{{ objeto.categoria }}</td>
+        </tr>
+
+    {% endfor %}
+
+{% else %}
+
+{% endif %}
+
+</table>
+
+
+</body>
+</html>
