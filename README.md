@@ -29,3 +29,31 @@ no template utilizar.```<td> <img src="{{MEDIA_URL }}{{ objeto.image.url }}"> </
 
 
 
+#Como fazer funcionar.
+
+
+
+#Para criar a base de dados necessária:
+
+    ./manage.py makemigrations
+    python manage.py migrate
+
+para criar um usuário administrador para você, va até a
+
+pasta base ( a que possui o 'manage.py') , rode:
+
+    ./manage.py createsuperuser
+
+
+Após subir o server com ./manage.py runserver
+acessa-la no link
+
+
+    localhost:8000/home
+menu administrador
+
+
+    localhost:8000/admin
+
+
+
