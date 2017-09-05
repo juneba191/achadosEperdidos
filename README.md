@@ -29,7 +29,14 @@ no template utilizar.```<td> <img src="{{MEDIA_URL }}{{ objeto.image.url }}"> </
 
 
 
-# Como fazer funcionar.
+
+https://medium.com/django-musings/customizing-the-django-admin-site-b82c7d325510
+
+https://docs.djangoproject.com/en/1.9/ref/contrib/admin/#adminsite-objects
+
+
+
+# Como fazer funcionar abaixo.
 
 
 
