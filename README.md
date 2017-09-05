@@ -29,11 +29,11 @@ no template utilizar.```<td> <img src="{{MEDIA_URL }}{{ objeto.image.url }}"> </
 
 
 
-#Como fazer funcionar.
+# Como fazer funcionar.
 
 
 
-#Para criar a base de dados necessária:
+# Para criar a base de dados necessária:
 
     ./manage.py makemigrations
     python manage.py migrate
