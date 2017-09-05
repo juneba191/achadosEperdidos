@@ -24,5 +24,6 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^home/',include('AchadosEPerdidos.urls')),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    #url(r'^home/',include('AchadosEPerdidos.urls')), # nao descomentar isso, se nao ninguem sabe coomo arrumar
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + [url(r'^',include('AchadosEPerdidos.urls'))]
+# o AchadosPerdidos também temq  ser com A maisculo se não dá ruiim.

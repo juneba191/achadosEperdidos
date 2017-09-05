@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1> CARTEIRA DE PROJETOS </h1>
+<h1> Achados e Perdidos - UnB </h1>
 <table class="table table-striped">
 <tr>
     <th>Imagem</th>
@@ -15,13 +15,14 @@
     <th>categoria</th>
 </tr>
 {% if objetos%}
-    entro
+
     {% for objeto in objetos %}
         <tr>
-            <td> <img src="{{MEDIA_URL }}{{ objeto.image.url }}"> </img> </td>
+            <td> <img height= "100" width="100" src="{{MEDIA_URL }}{{ objeto.image.url }}"> </img> </td>
             <td>{{ objeto.nomeObjeto }}</td>
             <td>{{ objeto.retirado }}</td>
             <td>{{ objeto.categoria }}</td>
+
         </tr>
 
     {% endfor %}

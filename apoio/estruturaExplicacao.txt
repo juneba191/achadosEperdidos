@@ -1,0 +1,5 @@
+Após subir o server com ./manage.py runserver
+acessa-la no link
+    localhost:8000/home
+menu administrador
+    localhost:8000/admin

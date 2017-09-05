@@ -12,3 +12,8 @@ def index(request):
     if lista_objetos is not None:
         print(lista_objetos)
     return HttpResponse(template.render(context,request) )
+
+def sobre(request):
+
+
+    return HttpResponse("Construir página sobre O sistema.")
