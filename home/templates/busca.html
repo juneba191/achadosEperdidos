@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>teste busca</title>
+</head>
+<body>
+{% for objeto in objetos %}
+   <img src="{{MEDIA_URL }}{{ objeto.image.url }}" width="400" height="400"> </img> <br>
+    {{ objeto.id }} <br>
+    {{ objeto.nome }} <br>
+
+
+
+{% endfor %}
+
+
+</body>
+</html>
