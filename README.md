@@ -64,6 +64,8 @@ menu administrador
     
     
   busca:
+  
+  
     localhost:8000/busca/(string a ser buscada)
     
     
@@ -71,6 +73,8 @@ menu administrador
   
   
     localhost:8000/item/(id a ser buscado)
+    
+    
   sobre:
   
     localhost:8000/sobre
