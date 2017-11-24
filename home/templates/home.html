@@ -33,9 +33,11 @@
         {% for objeto in objetos %}
             <li class="one_third btmspace-30">
                 <article class="bgded overlay" style="background-image:url('{{MEDIA_URL }}{{ objeto.image.url }}');">
-                    <h6> {{ objeto.id }}</h6>
-                    <h6 class="heading font-x1"><a>{{ objeto.nomeObjeto }}</a></h6>
-                    <a href="/item/{{ objeto.id }}"> clique aqui</a>
+                  <!--<h6 class="heading font-x1"><a>{{ objeto.nomeObjeto }}</a></h6>-->
+                  <a href="/item/{{ objeto.id }}">
+                      <h6 class="heading font-x1">{{ objeto.nomeObjeto }}</h6>
+                  </a>
+                  <!--<a href="/item/{{ objeto.id }}"> clique aqui</a>-->
                  <p>{{ objeto.descricao }}</p>
                 </article>
              </li>

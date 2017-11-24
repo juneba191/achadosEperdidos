@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 MEDIA_URL = '/media/'
 #MEDIA_ROOT = '/home/wagner/PycharmProjects/achadosEperdidos/media'
-MEDIA_ROOT =  "/mnt/c/Users/Juneb/PycharmProjects/achados_perdidos_refatorado" + "/media"
+MEDIA_ROOT = 'media/'
 
 # Application definition
 

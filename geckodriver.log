@@ -1,0 +1,65 @@
+1511307341918	geckodriver	INFO	geckodriver 0.19.1
+1511307341930	geckodriver	INFO	Listening on 127.0.0.1:36971
+1511309358702	geckodriver	INFO	geckodriver 0.19.1
+1511309358714	geckodriver	INFO	Listening on 127.0.0.1:37331
+1511309698683	geckodriver	INFO	geckodriver 0.19.1
+1511309698698	geckodriver	INFO	Listening on 127.0.0.1:45487
+1511309698975	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IPLMQbEqmR2Z"
+1511309702692	Marionette	INFO	Enabled via --marionette
+1511309708881	Marionette	INFO	Listening on port 33013
+1511309709118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511309709206	Marionette	DEBUG	Register listener.js for window 2147483649
+1511309709814	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511309709880	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511309709881	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511309710532	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1511309710710	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1511309995872	Marionette	DEBUG	Register listener.js for window 2147483653
+1511309995962	Marionette	DEBUG	Register listener.js for window 2147483655
+1511310774709	geckodriver	INFO	geckodriver 0.19.1
+1511310774717	geckodriver	INFO	Listening on 127.0.0.1:32929
+1511310774917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oUhwwECzBQuU"
+1511310776854	Marionette	INFO	Enabled via --marionette
+1511310780022	Marionette	INFO	Listening on port 43993
+1511310780035	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511310780140	Marionette	DEBUG	Register listener.js for window 2147483649
+1511310780238	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511310780338	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511310780339	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511310780626	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1511310780721	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1511311374843	geckodriver	INFO	geckodriver 0.19.1
+1511311374850	geckodriver	INFO	Listening on 127.0.0.1:34605
+1511311375131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.idNu4sNQ9Nou"
+1511311377035	Marionette	INFO	Enabled via --marionette
+1511311380539	Marionette	INFO	Listening on port 46001
+1511311380569	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511311380665	Marionette	DEBUG	Register listener.js for window 2147483649
+1511311380786	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511311380815	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511311380815	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511311381263	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1511311381436	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1511311381616	Marionette	DEBUG	Received DOM event "beforeunload" for "http://127.0.0.1:8000/"
+1511311381699	Marionette	DEBUG	Received DOM event "pagehide" for "http://127.0.0.1:8000/"
+1511311381699	Marionette	DEBUG	Received DOM event "unload" for "http://127.0.0.1:8000/"
+1511311381720	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/item/1"
+1511311381787	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/item/1"
+1511311390527	Marionette	DEBUG	Register listener.js for window 4294967297
+1511311390644	Marionette	DEBUG	Register listener.js for window 4294967299
+1511311391626	Marionette	DEBUG	Register listener.js for window 4294967303
+1511311393376	Marionette	DEBUG	Register listener.js for window 4294967306
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1511311969827	geckodriver	INFO	geckodriver 0.19.1
+1511311969836	geckodriver	INFO	Listening on 127.0.0.1:34257
+1511311971046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BcYc456NlALh"
+1511311972154	Marionette	INFO	Enabled via --marionette
+1511311976115	Marionette	INFO	Listening on port 33773
+1511311976324	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511311976415	Marionette	DEBUG	Register listener.js for window 2147483649
+1511311976456	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511311976478	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511311976492	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511311977157	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1511311977240	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
