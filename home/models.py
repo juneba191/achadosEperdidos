@@ -19,7 +19,7 @@ CATEGORIAS = (
 
 UNIVERSIDADES = ( 
     ('UNB','UNB'),('CATOLICA','CATOLICA'), ('UNIP', 'UNIP'), ('UNIEURO','UNIEURO'), ('UNICEUB','UNICEUB'),
-    ('OUTROS', 'OUTROS')
+    ('OUTROS', 'OUTROS' )
  )
 
 
