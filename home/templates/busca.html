@@ -1,19 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="">
+
 <head>
-    <meta charset="UTF-8">
-    <title>teste busca</title>
-</head>
-<body>
-{% for objeto in objetos %}
-   <img src="{{MEDIA_URL }}{{ objeto.image.url }}" width="400" height="400"> </img> <br>
-    {{ objeto.id }} <br>
-    {{ objeto.nome }} <br>
+    <title>Achados e Perdidos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="/static/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all"> </head>
 
-
-
-{% endfor %}
-
-
+<body id="top">
+    <div class="bgded overlay" style="background-image:url('../../static/images/backgrounds/01.svg');">
+        <div class="wrapper row1">
+            <div class="wrapper row1">
+                <header id="header" class="hoc clear">
+                    <div id="logo" class="fl_left">
+                        <h1><a href="index.html">Achados e Perdidos</a></h1> </div>
+                    <nav id="mainav" class="fl_right">
+                        <ul class="clear">
+                            <li><a href="home.html">Home</a>
+                            </li>
+                            <li><a href="/sobre.html">SOBRE</a>
+                            </li>
+                            <li><a href="http://localhost:8000/admin/">ADMINISTRADOR</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div id="pageintro" class="hoc clear"> </div>
+        </div>
+    </div>
+    <div style="height:3%">
+        <form id="theForm">
+            <div style="margin-left:5px;margin-right:5px;float:left">
+                <input id='subj' placeholder="Item"> </div>
+            <div>
+                <input id='subj' type='submit' value="Buscar Item" /> </div>
+        </form>
+    </div>
+    <div class="wrapper row3">
+        <div class="hoc container clear">
+            <div class="sectiontitle">
+                <h6 class="heading">Itens</h6>
+                <p>Lista de Itens Encontrados</p>
+            </div>
+            <ul class="nospace group services"> {% if objetos%} {% for objeto in objetos %}
+                <li class="one_third btmspace-30">
+                    <article class="bgded overlay" style="background-image:url('{{MEDIA_URL }}{{ objeto.image.url }}');">
+                        <a href="/item/{{ objeto.id }}">
+                            <h6 class="heading font-x1">{{ objeto.nomeObjeto }}</h6> </a>
+                        <p>{{ objeto.descricao }}</p>
+                    </article>
+                </li> {% endfor %} {% else %} {% endif %} </ul>
+        </div>
+    </div> <a id="backtotop" href="#top" class=""><i class="fa fa-chevron-up"></i></a>
+    <script src="/static/layout/scripts/jquery.min.js"></script>
+    <script src="/static/layout/scripts/jquery.backtotop.js"></script>
+    <script src="/static/layout/scripts/jquery.mobilemenu.js"></script>
 </body>
+
 </html>
